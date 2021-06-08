@@ -244,6 +244,10 @@ html, body {
 		height: 100%;
 		display: flex;
 		align-items: center;
+
+		@media (max-width: 756px) {
+			text-align: center;
+		}
 	}
 
 	&__regim-icon {
@@ -396,6 +400,10 @@ html, body {
 		@media (max-width: 756px) {
 			width: 270px;
 			height: 270px;
+		}
+
+		@media (max-height: 546px) {
+			display: none;
 		}
 	}
 
@@ -1010,6 +1018,5 @@ html, body {
 	&:hover {
 		background-color: $dark-light;
 		color: $white;
-		border: 1px solid $dark-light;
 	}
 }

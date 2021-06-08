@@ -310,6 +310,12 @@ html._lock, body._lock {
   align-items: center;
 }
 
+@media (max-width: 756px) {
+  .contacts__regim {
+    text-align: center;
+  }
+}
+
 .contacts__regim-icon {
   margin-right: 15px;
   width: 16px;
@@ -460,6 +466,12 @@ html._lock, body._lock {
   .main__cube {
     width: 270px;
     height: 270px;
+  }
+}
+
+@media (max-height: 546px) {
+  .main__cube {
+    display: none;
   }
 }
 
@@ -1103,5 +1115,4 @@ html._lock, body._lock {
 .button:hover {
   background-color: #1F1F1F;
   color: #fff;
-  border: 1px solid #1F1F1F;
 }
